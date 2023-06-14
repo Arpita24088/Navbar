@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>Timer</title>
+    <link rel="stylesheet"  href="timer.css">
+</head>
+<body>
+    
+   
+        <div class="countdown">
+            <h2>Countdown Timer</h2>
+            <div>
+                <label for="duration">Duration (in seconds):</label>
+                <input type="number" id="duration" min="1">
+                <button class="startBtn" onclick="startCountdown()">Start</button>
+            </div>
+            <div id="timer"></div>
+            <audio id="ringtone">
+                <source src="dieforu_the_weekend.mp3" type="audio/mpeg">
+            </audio>
+            <button class="stopBtn"onclick="stopRingtone()">Stop Ringtone</button>
+            <a href="index.html"><button class="homeBtn">Home</button></a>
+        </div>
+      
+    <script src="timer.js"></script>
+</body>
+</html>

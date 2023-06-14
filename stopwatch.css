@@ -1,0 +1,120 @@
+body{
+    background-color: #90AEFF;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+  }
+  
+  
+  .container {
+      text-align: center;
+      width: 100%;
+      max-width: 800px;
+      font-family:'Montserrat', sans-serif;
+      color: rgb(176, 195, 226);
+      padding: 10px 0;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: rgba(225,225, 225, 0.15);
+    box-shadow: 0 8px 30px 0 rgba(32,38,135, 0.37);
+    backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(225,225, 225, 0.18);
+    transition: all 0.3s;
+  
+    }
+
+    .container:hover{
+        box-shadow: none;
+    }
+    
+    h1#timer {
+      font-size: 5vw;
+      font-family:'Montserrat', sans-serif;
+      color:ghostwhite;
+  }
+    
+    
+    .controls button {
+      margin: 1%;
+      font-family:'Montserrat', sans-serif;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #2f0404cd;
+      border: none;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      cursor: pointer;
+      background: rgba(225,225, 225, 0.15);
+      box-shadow: 0 8px 32px 0 rgba(32,38,135, 0.37);
+      backdrop-filter: blur(1.5px);
+      border: 1px solid rgba(225,225, 225, 0.18);
+      transition: all 0.3s;
+  }
+  .controls button.hover{
+    box-shadow: none;
+  }
+    
+    .home button{
+       margin: 5%;
+      font-family:'Montserrat', sans-serif;
+      color:rgb(171, 204, 171);
+      font-weight: bold;
+      font-size: 1.5vw;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #2f0404cd;
+      border: none;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      cursor: pointer;
+      background: rgba(225,225, 225, 0.15);
+      box-shadow: 0 8px 32px 0 rgba(32,38,135, 0.37);
+      backdrop-filter: blur(1.5px);
+      border: 1px solid rgba(225,225, 225, 0.18);
+      transition: all 0.3s;
+      
+    }
+    button#startBtn{
+      background-color:rgb(171, 204, 171);
+    }
+      
+    button#stopBtn{
+        background-color:rgb(171, 204, 171);
+    }
+    button#resetBtn{
+        background-color:rgb(171, 204, 171);
+    }
+
+
+    
+    @media screen and (max-width: 1080px){
+      .container{
+        margin-top:50%;
+      }
+      .controls button{
+        font-size: 2.5vw;
+      }
+      .home button{
+        font-size: 3vw;
+        background-color: rgb(171, 204, 171);
+      }
+      h1#timer{
+        font-size: 8vw;
+      }
+      button#startBtn{
+        background-color:rgb(171, 204, 171);
+      }
+      button#stopBtn{
+        background-color:rgb(171, 204, 171);
+      }
+      button#resetBtn{
+        background-color:rgb(171, 204, 171);
+      }
+    }
